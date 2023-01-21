@@ -1,0 +1,17 @@
+
+.box {
+    padding: 10px 20px 30px 40px;
+    margin: 40px 30px 20px 10px;
+    border: solid 5px;
+    display: inline-block;
+}
+
+h1 + div {
+    height: 300px;
+    width: 50%;
+    visibility: hidden;
+}
+
+.box__last:hover {
+    background-color: red;
+}
