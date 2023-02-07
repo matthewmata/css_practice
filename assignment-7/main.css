@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 10rem 800px 10rem
+}
+
+.header {
+    background: green;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.sidebar {
+    background: red;
+}
+
+.main-content {
+    background: blueviolet;
+    grid-column-start: 3 span;
+}
+
+.footer {
+    background: yellow;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
